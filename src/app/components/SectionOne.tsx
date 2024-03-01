@@ -10,9 +10,9 @@ const SectionOne: React.FC = () => {
     <section className="lg: py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
@@ -58,9 +58,9 @@ const SectionOne: React.FC = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center"
         >
           <div className="rounded-full bg-[#181818] w-[350px] h-[400px] relative">

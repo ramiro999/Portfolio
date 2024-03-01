@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-12 py-4">
         <SectionOne />
+        <SectionTwo />
       </div>
     </main>
   );

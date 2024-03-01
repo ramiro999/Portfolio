@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
           src="/1.png"
           alt="person image"
           width={100}
-          height={100}
+          height={80}
           priority={false}
         />
         <div className="mobile-menu block md:hidden">
