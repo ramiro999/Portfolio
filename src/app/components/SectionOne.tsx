@@ -7,27 +7,27 @@ import { motion } from "framer-motion";
 const SectionOne: React.FC = () => {
   return (
     <section className="lg: py-16">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-12">
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="flex flex-col justify-center items-center"
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-yellow-100 p-2">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Ramiro",
+                1000,
+                "Frontend Developer",
                 1000,
                 "Web Developer",
                 1000,
                 "Mobile Developer",
-                1000,
-                "UI/UX Designer",
                 1000,
               ]}
               wrapper="span"
