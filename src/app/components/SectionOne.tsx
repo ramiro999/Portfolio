@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
@@ -14,7 +15,7 @@ const SectionOne: React.FC = () => {
           transition={{ duration: 1 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-text-gradient">
               Hello, I&apos;m{" "}
             </span>
@@ -36,8 +37,8 @@ const SectionOne: React.FC = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            Systems engineering student passionate about creating web and mobile
+            applications.
           </p>
           <div>
             <Link
@@ -54,6 +55,23 @@ const SectionOne: React.FC = () => {
                 Download CV
               </span>
             </Link>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          className="col-span-4 place-self-center"
+        >
+          <div className="rounded-full bg-[#181818] w-[350px] h-[400px] relative">
+            <Image
+              src="/person.webp"
+              alt="person image"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={300}
+              height={300}
+              priority={false}
+            />
           </div>
         </motion.div>
       </div>
