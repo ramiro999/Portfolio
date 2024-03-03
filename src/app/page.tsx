@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import SectionOne from "./components/SectionOne";
-import SectionTwo from "./components/SectionTwo";
+import Navbar from "./components/Navbar/Navbar";
+import SectionOne from "./components/Sections/SectionOne";
+import SectionTwo from "./components/Sections/SectionTwo";
 
 export default function Home() {
   return (

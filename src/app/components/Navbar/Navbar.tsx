@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           alt="person image"
           width={100}
           height={80}
-          priority={false}
+          priority={true}
         />
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
