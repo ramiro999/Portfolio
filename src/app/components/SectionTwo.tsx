@@ -33,30 +33,24 @@ const SectionTwo: React.FC = () => {
     <section className="flex">
       <div className="py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <div className="sm:border-[#33353F] sm:border rounded-md py-8 px-16 flex flex-col sm:flex-row items-center justify-between">
-          <div className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0">
-            <CodingIcon className="h-8 w-8 text-red-500" />
-            <h2 className="text-white text-center text-2xl font-bold flex flex-row">
-              Software frameworks
-            </h2>
-          </div>
-          <div className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0">
-            <UIIcon className="h-8 w-8 text-red-500" />
-            <h2 className="text-white text-center text-2xl font-bold flex flex-row">
-              User interface
-            </h2>
-          </div>
-          <div className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0">
-            <UXIcon className="h-8 w-8 text-red-500" />
-            <h2 className="text-white text-center text-2xl font-bold flex flex-row">
-              User Experience
-            </h2>
-          </div>
-          <div className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0">
-            <LightIcon className="h-8 w-8 text-red-500" />
-            <h2 className="text-white text-center text-2xl font-bold flex flex-row">
-              Creative and Critical
-            </h2>
-          </div>
+          {Skills.map((skill, index) => {
+            return (
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
+              >
+                <div className="flex items-center justify-center bg-text-gradient w-10 h-10 rounded-full">
+                  {index === 0 && <CodingIcon />}
+                  {index === 1 && <UIIcon />}
+                  {index === 2 && <UXIcon />}
+                  {index === 3 && <LightIcon />}
+                </div>
+                <h2 className="text-white text-center text-2xl font-bold flex flex-row">
+                  {skill.title}
+                </h2>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
