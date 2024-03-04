@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Image
           src="/1.png"
-          alt="person image"
+          alt="logo"
           width={100}
           height={80}
           priority={true}
