@@ -65,7 +65,7 @@ const SectionOne: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center"
         >
-          <div className="rounded-full bg-[#181818] w-[350px] h-[400px] relative">
+          <div className="mt-4 rounded-full bg-[#181818] w-[350px] h-[400px] relative ">
             <Image
               src="/person.webp"
               alt="person image"
