@@ -17,6 +17,11 @@ export const Features = [
     description: "App for managing your tasks guided by FrontendMentor",
     imgP: "/todo.png"
   },
+  {
+    title: "App Defensoria del Pueblo",
+    description: "Tool to generate legal documents",
+    imgP: "/defensoria.png" 
+  },
 ];
 
 const ProjectsSection: React.FC = () => {
