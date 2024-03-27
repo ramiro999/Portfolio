@@ -4,6 +4,7 @@ import SectionOne from "./components/Sections/SectionOne";
 import SectionTwo from "./components/Sections/SectionTwo";
 import AboutSection from "./components/About/AboutSection";
 import ProjectsSection from "./components/Projects/ProjectsSection";
+import ContactSection from "./components/Contact/ContactSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <SectionTwo />
         <AboutSection />
         <ProjectsSection />
+        <ContactSection />
       </div>
     </main>
   );
