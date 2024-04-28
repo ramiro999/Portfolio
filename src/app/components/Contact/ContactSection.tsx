@@ -1,5 +1,5 @@
 "use client"
-import { useState, useForm } from "react-hook-form";
+import { useForm, SubmitHandler } from "react-hook-form";
 import React from "react";
 
 type Inputs = {
@@ -15,7 +15,7 @@ const ContactSection: React.FC = () => {
     formState: { errors },
   } = useForm<Inputs>()
 
-  const onSubmit: SubmitHandle<Inputs> = (data) => console.log(data)
+  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
   
 
   return(
