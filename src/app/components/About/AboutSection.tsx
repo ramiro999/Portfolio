@@ -20,7 +20,7 @@ const AboutSection: React.FC = () => {
         <p className="text-md sm:text-lg text-white mt-2 mx-6">
           Systems engineering student passionate about creating web and mobile
           applications, as well as studying models and applications of
-          artificial intelligence. I contribute to projects on a personal and
+          artificial intelligence and computer vision. I contribute to projects on a personal and
           team level and love learning new technologies.🚀
         </p>
       </div>
