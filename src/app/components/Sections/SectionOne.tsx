@@ -30,6 +30,8 @@ const SectionOne: React.FC = () => {
                 1000,
                 "Mobile Developer",
                 1000,
+                "Computer vision",
+                1000,
               ]}
               wrapper="span"
               speed={50}
