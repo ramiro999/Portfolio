@@ -22,7 +22,7 @@ const SectionOne: React.FC = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Ramiro",
+                "Ramiro Avila",
                 1000,
                 "Frontend Developer",
                 1000,
