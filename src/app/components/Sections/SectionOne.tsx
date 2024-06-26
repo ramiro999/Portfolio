@@ -28,9 +28,7 @@ const SectionOne: React.FC = () => {
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
-                1000,
-                "Computer vision",
+                "Computer vision enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -39,8 +37,7 @@ const SectionOne: React.FC = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Systems engineering student passionate about creating web and mobile
-            applications.
+            Systems Engineering student passionate about Computer Vision, Deep Learning and creating web applications.
           </p>
           <div>
             <Link

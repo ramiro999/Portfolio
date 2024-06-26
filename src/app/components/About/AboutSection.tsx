@@ -18,10 +18,9 @@ const AboutSection: React.FC = () => {
           About Me
         </h2>
         <p className="text-md sm:text-lg text-white mt-2 mx-6">
-          Systems engineering student passionate about creating web and mobile
-          applications, as well as studying models and applications of
-          artificial intelligence and computer vision. I contribute to projects on a personal and
-          team level and love learning new technologies.🚀
+        Systems Engineering student passionate about Computer Vision and Deep Learning. I am constantly looking for new opportunities to apply my knowledge in web and mobile application development, as well as in the exploration of artificial intelligence models and applications.
+        
+        I am interested in learning more about collaboration between universities, businesses and the state, and how I can contribute to this relationship.🚀
         </p>
       </div>
     </section>
