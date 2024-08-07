@@ -28,6 +28,11 @@ export const Links: LinkItem[] = [
     name: "Contact",
     url: "/contact",
   },
+  {
+    name: "Contact 2",
+    url: "/contact",
+  },
+
 ];
 
 const Navbar: React.FC = () => {
