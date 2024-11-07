@@ -15,7 +15,7 @@ const SectionOne: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-4 text-2xl sm:text-3xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-text-gradient">
               Hello, I&apos;m{" "}
             </span>
@@ -24,9 +24,7 @@ const SectionOne: React.FC = () => {
               sequence={[
                 "Ramiro Avila",
                 1000,
-                "Frontend Developer",
-                1000,
-                "Web Developer",
+                "FullStack Developer",
                 1000,
                 "Computer vision enthusiast",
                 1000,
@@ -36,23 +34,23 @@ const SectionOne: React.FC = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Systems Engineering student passionate about Computer Vision, Deep Learning and creating web applications.
+          <p className="text-[#ADB7BE] text-base sm:text-xs mb-6 lg:pr-10 lg:text-lg">
+          Systems Engineering student passionate about Computer Vision and Deep Learning. I am constantly looking for new opportunities to apply my knowledge in web application development, as well as in the exploration of artificial intelligence models and applications.
           </p>
           <div>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 bg-yellow-800 text-white mx-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 bg-white text-white mx-3"
             >
-              <span className="block bg-[#121212] hover:text-red-300 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:text-green-300 rounded-full px-5 py-2">
                 Hire Me
               </span>
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 bg-yellow-800 text-white mt-3 mx-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 bg-white text-white mt-3 mx-3"
             >
-              <span className="block bg-[#121212] hover:text-red-300 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover:text-green-300 rounded-full px-5 py-2">
                 Download CV
               </span>
             </Link>
@@ -64,9 +62,9 @@ const SectionOne: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center"
         >
-          <div className="mt-4 rounded-full bg-[#181818] w-[350px] h-[400px] relative ">
+          <div className="mt-4 bg-[#181818] w-[350px] h-[400px] relative ">
             <Image
-              src="/person.webp"
+              src="/1.png"
               alt="person image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
