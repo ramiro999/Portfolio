@@ -64,7 +64,7 @@ const SectionOne: React.FC = () => {
         >
           <div className="mt-4 bg-[#181818] w-[350px] h-[400px] relative ">
             <Image
-              src="/1.png"
+              src="/perfil.jpg"
               alt="person image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
